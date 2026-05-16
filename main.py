@@ -15,7 +15,7 @@ HEADERS = {'Content-Type': 'application/json', 'Authorization': f'Bearer {os.get
 def send_message(message):
     data = {
     "messaging_product": "whatsapp",
-    "to": "57xxxxxxxx",
+    "to": "57xxxxxxxxnum",
     "type": "template",
     "template": {
         "name": "energia_orbimax",
